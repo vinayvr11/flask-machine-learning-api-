@@ -1,0 +1,14 @@
+{%extends "layout.html"%}
+
+{%block content%}
+    
+     <form action="/predict"method="POST">
+         Experience:<br>
+         <input type="text" name="Experience">
+     
+         <button type="submit">Predict</button>
+     </form>
+     
+    <p>{{ prediction_text }}</p>
+    
+{%endblock content%}
