@@ -9,12 +9,6 @@ model = pickle.load(open('model.pkl','rb'))
 
 
 
-posts = [
-        {'Name':'Vinay',
-         'Work':'Scientist',
-         'Billionaire':'20$ billion'}
-
-]
 
 @app.route('/')
 @app.route('/home')
